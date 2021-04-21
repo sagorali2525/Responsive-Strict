@@ -1,0 +1,2 @@
+# Responsive-Strict
+Bootstrap-Responsive
