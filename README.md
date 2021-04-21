@@ -1,2 +1,3 @@
 # Responsive-Strict
-Bootstrap-Responsive
+Bootstrap-Responsive-Strict
+Link : https://sagorali2525.github.io/Responsive-Strict/
