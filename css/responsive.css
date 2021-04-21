@@ -1,0 +1,137 @@
+
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    /* navber  */
+ .navbar-nav {
+   align-items: center;
+}
+.nav-link {
+padding: 15px 30px !important;
+} 
+/* navber
+   /* slider */
+  .slider-title h5{
+     font-size: 50px;
+     line-height: 60px;
+  }
+  .slider-title span::after {
+     width: 100%;
+  }
+  .carousel-caption {
+     width: 80%;
+ }
+ .get-button .btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  margin-top: 0;
+}
+.carousel-caption p {
+   margin-top: 0;
+   font-size: 16px;
+}
+  /* slider */
+  .carousel-indicators, .carousel-control-prev, .carousel-control-next {
+     display: none;
+   }
+   .carousel-inner img {
+      min-height: 300px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  /* slider */
+  .slider-title h5{
+    font-size: 80px;
+    line-height: 90px;
+ }
+ .slider-title span::after {
+    width: 100%;
+ }
+ .carousel-caption {
+    width: 80%;
+}
+.get-button .btn {
+ padding: 12px 20px;
+ font-size: 16px;
+ margin-top: 0;
+}
+.carousel-caption p {
+  margin-top: 15px;
+}
+
+ /* slider */
+.carousel-indicators, .carousel-control-prev, .carousel-control-next {
+ display: none;
+}
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* navber  */
+ .navbar-nav {
+   align-items: center;
+}
+.nav-link {
+padding: 15px 30px !important;
+} 
+/* navber
+  /* slider */
+  .slider-title h5{
+    font-size: 100px;
+ }
+ .slider-title span::after {
+    width: 100%;
+ }
+ .carousel-caption {
+    width: 60%;
+}
+.get-button .btn {
+ padding: 12px 20px;
+ font-size: 16px;
+ margin-top: 10px;
+}
+ /* slider */
+.carousel-indicators {
+ display: none;
+}
+.carousel-inner img {
+   min-height: 500px;
+}
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ /* slider */
+ .slider-title h5{
+    font-size: 100px;
+ }
+ .slider-title span::after {
+    width: 100%;
+ }
+ .carousel-caption {
+    width: 60%;
+}
+.get-button .btn {
+ padding: 12px 20px;
+ font-size: 16px;
+ margin-top: 10px;
+}
+ /* slider */
+ .carousel-inner img {
+   min-height: 700px;
+}
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+
+}
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
+
+
